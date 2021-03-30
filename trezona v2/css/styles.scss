@@ -1,0 +1,145 @@
+$font: Montserrat, sans-serif;
+$black: #231F20;
+$gold: #AD974F;
+$brightgold: rgb(216, 183, 76);
+$white: #EAEAEA;
+
+body {
+    font-family: $font;
+    color: $black;
+
+    #header-bg {
+        background-color: $black;
+    }
+
+    .navbar {
+        background-color: $gold;
+        padding: 0;
+
+        #icon {
+            color: $black;
+
+            &:hover {
+                color: $white;
+            }
+        }
+
+        #page-links {
+            font-weight: 600;
+
+            .nav-link {
+                color: $black;
+
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+
+        .navbar-toggler:focus {
+            outline: none;
+        }
+
+        .navbar-toggler {
+            border-color: rgba(0, 0, 0, 0);
+            padding-left: 5.5%;
+        }
+
+        .click {
+            cursor: pointer;
+        }
+    }
+}
+
+body {
+    .sub {
+        margin: 0;
+        font-size: 1.1rem;
+        padding-top: 0;
+        text-align: right;
+        color: $gold;
+
+        &:hover {
+            margin: 0;
+            color: $brightgold;
+        }
+    }
+
+
+    .substat {
+        text-align: right;
+        font-size: 1.1rem;
+        color: $gold;
+    }
+
+    .subhead {
+        font-weight: 600;
+    }
+
+    .sub2 {
+        margin: 0;
+        text-align: right;
+        font-size: 1.5rem;
+        color: $gold;
+
+        .line {
+            border-bottom: 2px solid $gold;
+        }
+    }
+
+    .theo {
+        position: absolute;
+        top: 10%;
+        left: 12%;
+        transform: scale(1.6);
+        opacity: .7;
+        z-index: -1;
+    }
+
+    a {
+        color: $gold;
+
+        &:hover {
+            color: $brightgold;
+        }
+    }
+
+    .form-control:focus {
+        border-color: $gold;
+        box-shadow: none;
+    }
+}
+
+.message {
+    font-size: .75rem;
+    border-bottom: 1px solid $gold;
+    border-top: 1px solid $gold;
+    padding: 15px 5px 0 5px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.footer {
+    background-color: $black;
+    border-bottom: 7px solid $gold;
+    padding: 5px;
+
+    .footer-links {
+        color: $white;
+        padding: 0 20px;
+
+        &:hover {
+            color: $gold;
+            text-decoration: none;
+        }
+    }
+
+    .footer-icons {
+        color: $white;
+        padding: 5px;
+
+        &:hover {
+            color: $gold;
+        }
+    }
+}

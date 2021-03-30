@@ -1,0 +1,139 @@
+body {
+  font-family: Montserrat, sans-serif;
+  color: #231F20;
+}
+
+body #header-bg {
+  background-color: #231F20;
+}
+
+body .navbar {
+  background-color: #AD974F;
+  padding: 0;
+}
+
+body .navbar #icon {
+  color: #231F20;
+}
+
+body .navbar #icon:hover {
+  color: #EAEAEA;
+}
+
+body .navbar #page-links {
+  font-weight: 600;
+}
+
+body .navbar #page-links .nav-link {
+  color: #231F20;
+}
+
+body .navbar #page-links .nav-link:hover {
+  color: #EAEAEA;
+}
+
+body .navbar .navbar-toggler:focus {
+  outline: none;
+}
+
+body .navbar .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0);
+  padding-left: 5.5%;
+}
+
+body .navbar .click {
+  cursor: pointer;
+}
+
+body .sub {
+  margin: 0;
+  font-size: 1.1rem;
+  padding-top: 0;
+  text-align: right;
+  color: #AD974F;
+}
+
+body .sub:hover {
+  margin: 0;
+  color: #d8b74c;
+}
+
+body .substat {
+  text-align: right;
+  font-size: 1.1rem;
+  color: #AD974F;
+}
+
+body .subhead {
+  font-weight: 600;
+}
+
+body .sub2 {
+  margin: 0;
+  text-align: right;
+  font-size: 1.5rem;
+  color: #AD974F;
+}
+
+body .sub2 .line {
+  border-bottom: 2px solid #AD974F;
+}
+
+body .theo {
+  position: absolute;
+  top: 10%;
+  left: 12%;
+  -webkit-transform: scale(1.6);
+          transform: scale(1.6);
+  opacity: .7;
+  z-index: -1;
+}
+
+body a {
+  color: #AD974F;
+}
+
+body a:hover {
+  color: #d8b74c;
+}
+
+body .form-control:focus {
+  border-color: #AD974F;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.message {
+  font-size: .75rem;
+  border-bottom: 1px solid #AD974F;
+  border-top: 1px solid #AD974F;
+  padding: 15px 5px 0 5px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.footer {
+  background-color: #231F20;
+  border-bottom: 7px solid #AD974F;
+  padding: 5px;
+}
+
+.footer .footer-links {
+  color: #EAEAEA;
+  padding: 0 20px;
+}
+
+.footer .footer-links:hover {
+  color: #AD974F;
+  text-decoration: none;
+}
+
+.footer .footer-icons {
+  color: #EAEAEA;
+  padding: 5px;
+}
+
+.footer .footer-icons:hover {
+  color: #AD974F;
+}
+/*# sourceMappingURL=styles.css.map */

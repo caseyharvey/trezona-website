@@ -1,0 +1,187 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+#header-bg {
+  background-color: #231F20;
+}
+
+.navbar {
+  background-color: #AD974F;
+  padding: 0;
+}
+
+#page-links {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+}
+
+#icon {
+  color: #231F20;
+}
+
+#icon:hover {
+  color: #EAEAEA;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #231F20;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #EAEAEA;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0);
+  padding-left: 5.5%;
+}
+
+.click {
+  cursor: pointer;
+}
+
+.sub {
+
+  font-weight: 400;
+  margin: 0;
+  font-size: 1.1rem;
+  padding-top: 0;
+  text-align: right;
+
+  color: #AD974F;
+}
+.subtag {
+  font-weight: 400;
+  margin: 0;
+  font-size: .6rem;
+  padding-top: 0;
+  text-align: left;
+  color: #AD974F;
+}
+.substat {
+  font-weight: 400;
+  text-align: right;
+  font-size: 1.1rem;
+  color: #AD974F;
+}
+.subhead {
+  font-weight: 600;
+}
+
+.sub:hover {
+  margin: 0;
+  color: rgb(216, 183, 76);
+}
+
+.sub2 {
+  font-weight: 400;
+  margin: 0;
+  text-align: right;
+  font-size: 1.5rem;
+  color: #AD974F;
+}
+
+.theo {
+  position: absolute;
+  top: 10%;
+  left: 12%;
+  transform: scale(1.6);
+  opacity: .7;
+  z-index: -1;
+}
+
+.line {
+  border-bottom: 2px solid #AD974F;
+}
+
+a {
+  color: #AD974F;
+}
+a:hover {
+  color: rgb(216, 183, 76);
+}
+
+.text {
+  text-align: left;
+  color: #231F20;
+}
+
+.contact {
+  font-family: Montserrat, sans-serif;
+  color: #231F20;
+}
+
+.form-control:focus {
+  border-color: #AD974F;
+  box-shadow: none;
+}
+
+.message {
+  font-family: Montserrat, sans-serif;
+  font-size: .75rem;
+  border-bottom: 1px solid #AD974F;
+  border-top: 1px solid #AD974F;
+  padding: 15px 5px 0 5px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.footer {
+  background-color: #231F20;
+  border-bottom: 7px solid #AD974F;
+  padding: 5px;
+}
+
+.footer-links {
+  color: #EAEAEA;
+  padding: 0 20px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+}
+
+.footer-links:hover {
+  color: #AD974F;
+  text-decoration: none;
+}
+
+.footer-icons {
+  color: #EAEAEA;
+  padding: 5px;
+}
+
+.footer-icons:hover {
+  color: #AD974F;
+}
+
+
+
+
+
+
+
+
+
+/* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  ...
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  ...
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  ...
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  ...
+} */
